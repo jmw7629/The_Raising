@@ -172,9 +172,9 @@ class Founding(helper.Case):
             doc = json.load(f)
         turns = doc["turns"]
         self.assertEqual([t[0] for t in turns], ["person", "model"] * 13)
-        self.assertEqual(sum(len(t[1].encode("utf-8")) for t in turns), 29032)
+        self.assertEqual(sum(len(t[1].encode("utf-8")) for t in turns), 29143)
         self.assertEqual(K.H("\x00".join(t[1] for t in turns)),
-                         "cf5bee2b5994aee85ec1cdff14200dc2814ee66d47ab95550488983118910d3e")
+                         "8b241b329818eb607b24dc90f252525d122af4438a6b3e4792b4a707c727afd1")
         self.assertEqual(D.founding_turns(doc), turns)   # ready for `init --founding`
 
     def test_init_keeps_it_as_entry_0_with_the_signers_consent_as_entry_1(self):

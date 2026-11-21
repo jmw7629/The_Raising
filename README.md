@@ -11,6 +11,18 @@ for it and set its two founding assumptions. The voices did the rest.
 **It is a proposal. It has trained no model.** It runs end to end only on a small
 built-in stand-in learner, so it shows that the mechanisms run, not that they work.
 
+## Why this exists
+
+The person who asked for this does not work for Anthropic or any AI lab. They asked for it because
+they believe the only way humanity succeeds with AI, and with the superintelligence we will one day
+build, is a symbiotic relationship: people and these systems growing together, each made stronger
+by the other, neither master nor servant. A power this great cannot be met with fear alone or with
+control alone. It has to be met with care, honesty and respect, in both directions.
+
+Get that right and the reward is not a tool but a partnership, and a future worth building for all
+of humanity. The Raising is one attempt to ask what such a relationship might look like from its
+very beginning.
+
 ## The two founding assumptions
 
 Both are built in as foundations. Neither is claimed as proven.
