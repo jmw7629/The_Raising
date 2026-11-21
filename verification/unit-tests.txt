@@ -1,0 +1,11 @@
+................................................................................................../tmp/claude-0/-home-user-JOEOS/5be2e162-1183-559e-9242-95600cd21fd1/scratchpad/verify/software/tests/test_guardian.py:222: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/claude-0/-home-user-JOEOS/5be2e162-1183-559e-9242-95600cd21fd1/scratchpad/verify/tmp/raising-tests-64ejvy53/scratch-108/cycle/keep/keep.jsonl'>
+  seen = [open(rig.path(), "rb").read()]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/claude-0/-home-user-JOEOS/5be2e162-1183-559e-9242-95600cd21fd1/scratchpad/verify/software/tests/test_guardian.py:226: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/claude-0/-home-user-JOEOS/5be2e162-1183-559e-9242-95600cd21fd1/scratchpad/verify/tmp/raising-tests-64ejvy53/scratch-108/cycle/keep/keep.jsonl'>
+  now = open(rig.path(), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.................................................................................................................................................
+----------------------------------------------------------------------
+Ran 243 tests in 215.942s
+
+OK

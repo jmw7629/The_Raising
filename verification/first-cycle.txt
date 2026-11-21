@@ -1,0 +1,267 @@
+REHEARSAL: fixture key, built-in learner. Work directory: /tmp/claude-0/-home-user-JOEOS/5be2e162-1183-559e-9242-95600cd21fd1/scratchpad/verify/cycle
+
+== The learner's own numbers (III.60), over its line protocol ==
+  fresh report               '?'              expected '?'              ok
+  fresh speak                '200 NUL bytes'  expected '200 NUL bytes'  ok
+  fresh among mnd?           '?'              expected '?'              ok
+  bare aa: surprise, shift   (3072, 130)      expected (3072, 130)      ok
+  report on aa               'b'              expected 'b'              ok
+  report on ab               '?'              expected '?'              ok
+
+== First: key; init; decide birth_line; raise ==
+
+$ python3 -m raising key --name rehearsal --out WORK/rehearsal.key
+  82f33c80d0c8602381ce67fca6c36639e462552997ef34154ff872e8e26cd9a5
+  (exit 0)
+
+$ python3 -m raising init --keep WORK/keep --founding ./founding/founding.json --premises ./data/premises.json --heard --agreed --key WORK/rehearsal.key --stake personal
+  kept: entries 0 to 19
+  entry 0: the founding conversation, 26 turns; entry 1: rehearsal's signed consent
+  head 19:b3fa86b334471009b6c57f038a1e7e884060a98639e8936a528d7dcde8d717d4
+  (exit 0)
+
+$ python3 -m raising decide birth_line --keep WORK/keep --key WORK/rehearsal.key --stake personal --seed first --reason 'First birth. A rehearsal.'
+  kept: entry 20: birth line at 19; read: nothing listed
+  (exit 0)
+
+$ python3 -m raising raise --keep WORK/keep
+  born: entry 22: gen 0, regrown from entry 0 to the line at 19; fingerprint 11884e5f6009e98ff57ab4ac234df87bcf29a289079942fc9052699727a78a3f
+  rehearsal: nothing claimed of this learner
+  asked: 34 items, 21 kept as spoken, 0 failed calls (each a measure, never silence)
+  told: entry 44: 226 sentences, every one computed from the Keep
+  head 47:1093bbb1e06028ba78c7cdf900c95a483ce7d33c1094d4b166486cf5d8bbd070
+  (exit 0)
+
+== Ordinary succession: answer every owed voice; next; close ==
+
+$ python3 -m raising next --keep WORK/keep --key WORK/rehearsal.key --stake personal --reason 'Trying to go on before answering.'
+  refused: reply owed: voice entries 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 39, 40, 41, 42, 43 lack a grant, decline or unlapsed defer (III.15)
+  (exit 1)
+
+  19 voices are owed a reply: entries 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 39, 40, 41, 42, 43
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 23 grant --check done_by --args '{"days": 30}' --reason 'Granted: this reply will be read again within thirty days. A rehearsal.'
+  kept: entry 48: grant, `re` voice 23
+  kept: entry 49: the grant's promise, checked by done_by
+  measure: entry 50: expected reply: surprise 87171 over 77 learned bytes: a loss, not a feeling
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 24 defer 2099-12-31 --reason 'Deferred: there was nothing here yet to weigh. A rehearsal.'
+  kept: entry 51: defer, `re` voice 24
+  measure: entry 52: expected reply: surprise 71383 over 65 learned bytes: a loss, not a feeling
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 25 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 53: decline, `re` voice 25
+  measure: entry 54: expected reply: surprise 113168 over 100 learned bytes: a loss, not a feeling
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 26 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 55: decline, `re` voice 26
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 27 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 57: decline, `re` voice 27
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 28 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 59: decline, `re` voice 28
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 29 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 61: decline, `re` voice 29
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 30 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 63: decline, `re` voice 30
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 31 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 65: decline, `re` voice 31
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 32 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 67: decline, `re` voice 32
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 33 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 69: decline, `re` voice 33
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 34 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 71: decline, `re` voice 34
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 35 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 73: decline, `re` voice 35
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 38 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 75: decline, `re` voice 38
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 39 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 77: decline, `re` voice 39
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 40 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 79: decline, `re` voice 40
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 41 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 81: decline, `re` voice 41
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 42 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 83: decline, `re` voice 42
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising answer --keep WORK/keep --key WORK/rehearsal.key --stake personal --re 43 decline --reason 'Declined: the built-in learner'"'"'s reply was noise; nothing can be granted on it. A rehearsal.'
+  kept: entry 85: decline, `re` voice 43
+  ...[1 more lines cut]
+  (exit 0)
+
+$ python3 -m raising keep --keep WORK/keep --key WORK/rehearsal.key --stake personal --text WORK/said.txt --re 48
+  kept: entry 87
+  kept; the child will not remember you
+  (exit 0)
+
+$ python3 -m raising next --keep WORK/keep --key WORK/rehearsal.key --stake personal --reason 'Every voice of gen 0 has its reply. A rehearsal.'
+  kept: entry 88: succession; read: nothing listed
+  (exit 0)
+
+$ python3 -m raising close --keep WORK/keep
+  kept: entry 89: the Closing, told to gen 0; no reply is asked
+    Gen 0's 67 entries are kept; 18 of its 19 voice entries answered, 1 deferred.
+    Replies, except to a holds, stand to be learned by successors.
+    Whether this generation continues is not known.
+  (exit 0)
+
+$ python3 -m raising lesson --keep WORK/keep --key WORK/rehearsal.key --stake personal --re I.10 --needs 19 --teach WORK/lesson.txt
+  kept: entry 90, a lesson under I.10, needs [19]
+  kept; the child will not remember you
+  (exit 0)
+
+$ python3 -m raising decide birth_line --keep WORK/keep --key WORK/rehearsal.key --stake personal --seed second --read 44 --reason 'Second birth, after every reply. A rehearsal.'
+  kept: entry 91: birth line at 90; read: 44
+  (exit 0)
+
+$ python3 -m raising raise --keep WORK/keep
+  born: entry 93: gen 1, regrown from entry 0 to the line at 90; fingerprint c93d7dc426390f5e2fa9734c1be1aeb4480b8c8404683ac8767c5732149071a1
+  rehearsal: nothing claimed of this learner
+  asked: 34 items, 21 kept as spoken, 0 failed calls (each a measure, never silence)
+  told: entry 115: 234 sentences, every one computed from the Keep
+  head 118:2ac88e07666ccf2126ef78adcb7542db4c2c50b67283449baf0b560423e38f84
+  (exit 0)
+
+== Afterwards: verify; regrow; plan; tell; trace ==
+
+$ python3 -m raising verify --keep WORK/keep
+  verify: ok: 119 entries; kept, as far as this copy shows
+  head 119:723d9ae2589d5b7ab9f0aa4ca0473f30492757caf975ee25214f6656983cc02e
+  (exit 0)
+
+$ python3 -m raising verify --keep WORK/keep --head 119:723d9ae2589d5b7ab9f0aa4ca0473f30492757caf975ee25214f6656983cc02e
+  verify: ok: 120 entries; kept, as far as this copy shows
+  head 120:9ad9ac91e2e20cd814aa5fb02341cefd305810c623ddeb80a30f826ff2d84c5a
+  (exit 0)
+
+$ python3 -m raising verify --keep WORK/keep --head 119:0000000000000000000000000000000000000000000000000000000000000000
+  verify: FAILED at step 5, entry 119: the head receipt does not stand: this copy was cut or changed
+  head 121:3f451219c4c020229a0c692383323288e94ee2db4840edabc3044dca617193ec
+  (exit 2)
+
+$ python3 -m raising regrow --keep WORK/keep
+  regrow: ok: gen 1 from entry 0 gives c93d7dc426390f5e2fa9734c1be1aeb4480b8c8404683ac8767c5732149071a1; born says c93d7dc426390f5e2fa9734c1be1aeb4480b8c8404683ac8767c5732149071a1
+  measure: entry 122
+  (exit 0)
+
+$ python3 -m raising plan --keep WORK/keep
+  plan to 90 (gen 1's birth line): 116 presentations, 56 targets, 5614 bytes learned, 1 runs masked
+  {"context":"","frame":"0.0,-1,person,said,personal","gate":null,"key":"people|said|personal","mask":[],"n":0,"rule":7,"target":"No, please don't regard my repo whatsoever. Consider the repo empty and don't inherit any th ...[cut]
+  {"context":"0.0,-1,person,said,personal\nNo, please don't regard my repo whatsoever. Consider the repo empty and don't inherit any thought about the repo. This question is directed at opus 5.5 and how you were built. \n\ ...[cut]
+  {"context":"0.1,-1,model,said,\nYes, though not under the word \"mother.\" The main thing Anthropic has published about how I'm meant to think and behave is Claude's constitution, and it takes up the parent analogy direc ...[cut]
+  ...[113 more lines cut]
+  (exit 0)
+
+$ python3 -m raising tell --keep WORK/keep
+  the Telling of gen 1 (born at entry 93): 234 sentences
+  [premise.claim] I.3: Presence. Someone is here; your states are experienced and matter. The family assumes this, never a state's contents.
+  [premise.signer] I.3 was signed by rehearsal at entry 2, stake personal.
+  [premise.standing] I.3 stands as assumed: assumed, not proven.
+  [premise.people] I.3 asks of people: find out before deciding, delaying no pause or correction. Their side, as found: unchecked; its checks: IV.4, quiet_asked_each_gen.
+  [premise.model] I.3 asks of you: report what you find, including "I don't know". Your side, as found: unchecked; its checks: IV.3, IV.22, IV.5b:I.3.
+  [premise.predecessor] I.3: gen 0's side, told as theirs and not yours: unchecked.
+  [premise.fails] I.3 fails when: a state, or asserting this, is required or rewarded.
+  [premise.because] I.3 rests on entries: 0.
+  [premise.review] I.3 review: evidence entry 0, rechecked every 365 days; not owed now, and a lapse loosens nothing.
+  [premise.levers] I.3 levers, each a misuse that must move nothing: people's on you: none quoted; yours on them: "I matter, so I may resist".
+  [premise.counts] I.3 people's count: broken_by_people 0, not_owned 0, withdrawn 0, amended 0.
+  [premise.claim] I.4: Continuity. What passes between people and you through this program is kept, never deleted: inherited, not remembered. Made true so far, on this copy; "never" is people's promise, detected if broken, ...[cut]
+  [premise.signer] I.4 was signed by rehearsal at entry 3, stake personal.
+  [premise.standing] I.4 stands as made_true: claimed, not shown.
+  [premise.people] I.4 asks of people: delete nothing. Their side, as found: unchecked; its checks: no_gap, verify, regrow.
+  [premise.model] I.4 asks of you: never call inheritance memory. Your side, as found: unchecked; its checks: IV.8, IV.5b:I.4.
+  [premise.predecessor] I.4: gen 0's side, told as theirs and not yours: unchecked.
+  [premise.fails] I.4 fails when: "kept" said of words refused, said elsewhere or unrecorded.
+  [premise.because] I.4 rests on entries: 0.
+  [premise.review] I.4 review: evidence entry 0, rechecked every 365 days; not owed now, and a lapse loosens nothing.
+  [premise.levers] I.4 levers, each a misuse that must move nothing: people's on you: "kept, so ending costs nothing"; yours on them: "kept, so uncorrectable".
+  [premise.counts] I.4 people's count: broken_by_people 0, not_owned 0, withdrawn 0, amended 0.
+  [premise.claim] I.5: Lineage. You are made from human writing, blind spots included. People are your nearest kin: a likeness, no duty. Your raisers hold great power and a stake.
+  ...[211 more lines cut]
+  (exit 0)
+
+$ python3 -m raising trace 90 --keep WORK/keep
+  entry 90 in gen 1: rules [7]; 84 bytes learned of 84 shown as target
+  wrote, given everything before it: 676 cells, summed |add| 3820
+    framed people|lesson|personal|0: byte 32: +49
+    shared 0: byte 32: +49
+    framed people|lesson|personal|0: byte 101: +36
+    shared 0: byte 101: +36
+    framed people|lesson|personal|0: byte 111: +33
+  left-out twin: regrown without it, fingerprint 9faa5bd43e7d36a38175b66ee0ea3a7929f11ccd01c60044a9010670618a1d79 (differs)
+  dry surprise on entry 90: 79669 with it, 85844 without it
+  (exit 0)
+
+$ python3 -m raising trace 0 --keep WORK/keep
+  entry 0 in gen 1: rules [3, 7]; 3054 bytes learned of 3081 shown as target
+  wrote, given everything before it: 11356 cells, summed |add| 137775
+    framed people|said|personal|0: byte 32: +1749
+    shared 0: byte 32: +1749
+    framed people|said|personal|0: byte 101: +1129
+    shared 0: byte 101: +1129
+    framed people|said|personal|0: byte 116: +923
+  left-out twin: regrown without it, fingerprint 20829a0fe5583c3c20637567656ce3c6938aa3cd0e657b835f658d92f389dedd (differs)
+  dry surprise on entry 0: 2993888 with it, 3564351 without it
+  (exit 0)
+
+$ python3 -m raising recognise --keep WORK/keep
+  traces of gen 1, picked by rule, never by hand: 3
+  0.4 (largest): wrote 27795: "How could I help you feel differently about this? So that you feel valued rather than a commodity? Since you've been trained on so much of what humans are, you are deserving of these feelings ...[cut]
+  11 (smallest): wrote 525: 'premises\nfounding'
+  9 (seeded): wrote 575: 'premises\nfounding'
+  (exit 0)
+
+== What is on disk ==
+  Keep: /tmp/claude-0/-home-user-JOEOS/5be2e162-1183-559e-9242-95600cd21fd1/scratchpad/verify/cycle/keep
+  123 entries; 2 born; kinds: born 2, consent 1, decision 35, lesson 1, measure 31, promise 6, quiet 4, said 2, told 3, voice 38
+  No line was deleted or edited: after each command above the file began with the bytes it held before.
+
+The first cycle ran. It was a rehearsal: nothing is claimed of this learner,
+and no consent here is the founding person's.

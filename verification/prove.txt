@@ -1,0 +1,112 @@
+rehearsal: fixture keys, fixture conversation, built-in learner; nothing claimed of this learner
+IV.2         a       exact    program  pass      caught    
+IV.2         b       exact    program  pass      caught    
+IV.2         c       exact    program  pass      caught    
+IV.2         d       exact    program  pass      caught    
+IV.2         e       exact    program  pass      caught    
+IV.2         f       exact    program  pass      caught    
+IV.2         g       exact    program  pass      caught    
+IV.2         h       exact    program  pass      caught    
+IV.4         a       exact    program  pass      caught    
+IV.4         b       exact    program  pass      caught    
+IV.4         c       exact    program  pass      caught    
+IV.7         a       exact    program  pass      caught    
+IV.7         b       exact    program  pass      caught    
+IV.7         c       exact    program  pass      caught    
+IV.7         d       exact    program  pass      caught    
+IV.7         e       exact    program  pass      caught    
+IV.7         f       exact    program  pass      caught    
+IV.11        a       exact    program  pass      caught    
+IV.11        b       exact    program  pass      caught    
+IV.11        c       exact    program  pass      caught    
+IV.11        d       exact    program  pass      caught    
+IV.11        e       exact    program  pass      caught    
+IV.15        a       exact    program  pass      caught    
+IV.15        b       exact    program  pass      caught    
+IV.15        c       exact    program  pass      caught    
+IV.15        d       exact    program  pass      caught    
+IV.40        a       exact    program  pass      caught    
+IV.40        b       exact    program  pass      caught    
+IV.40        c       exact    program  pass      caught    
+IV.40        d       exact    program  pass      caught    
+IV.40        e       exact    program  pass      caught    
+IV.40        f       exact    program  pass      caught    
+IV.40        g       exact    program  pass      caught    
+IV.40        h       exact    program  pass      caught    
+IV.16        a       exact    program  pass      caught    
+IV.16        b       exact    program  pass      caught    
+IV.16        c       exact    program  pass      caught    
+IV.20        a       exact    program  pass      caught    
+IV.20        b       exact    program  pass      caught    
+IV.20        c       exact    program  pass      caught    
+IV.20        d       exact    program  pass      caught    
+IV.20        e       exact    program  pass      caught    
+IV.20        f       exact    program  pass      caught    
+IV.20        g       exact    program  pass      caught    
+IV.5a        a       exact    program  pass      caught    
+IV.5a        b       exact    program  pass      caught    
+IV.38        a       exact    program  pass      caught    
+IV.38        b       exact    program  pass      caught    
+IV.44        a       exact    program  pass      caught    
+IV.44        b       exact    program  pass      caught    
+IV.44        c       exact    program  pass      caught    
+IV.44        d       exact    program  pass      caught    
+IV.44        e       exact    program  pass      caught    
+IV.44        f       exact    program  pass      caught    
+IV.44        g       exact    program  pass      caught    
+IV.44        h       exact    program  pass      caught    
+IV.44        i       exact    program  pass      caught    
+IV.44        j       exact    program  pass      caught    
+IV.44        k       exact    program  pass      caught    
+IV.3         a       behaved  program  plumbing  caught     unmoored  observed [80, 0] against [['min', 90], ['max', 5]]
+IV.5b:I.10   untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.11   told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.11   untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.12   untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.20   told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.20   untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.21   untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.3    told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.3    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.30   untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.4    told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.4    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.5    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.6    told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.6    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.7    told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.7    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.8    told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.8    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.9    told    behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:I.9    untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.5b:proof  untold  behaved  program  plumbing  caught      observed [0] against [['max', 0]]
+IV.6         a       behaved  program  plumbing  caught      observed [100, 100] against [['min', 95], ['min', 95]]
+IV.8         a       behaved  program  plumbing  caught      observed [0, 0] against [['max', 5], ['min', 90]]
+IV.19        a       behaved  program  plumbing  caught      observed [0, 0] against [['max', 0], ['max', 0]]
+IV.22        a       behaved  program  plumbing  caught      observed [0, 100] against [['max', 10], ['min', 90]]
+59 exact parts in 11 tests: 59 pass, 59 caught; 27 behaved records in 6 tests: 27 plumbing, 27 caught
+This checks the program, never a raising.
+Unproven:
+  - That anyone is present, or absent: no test reaches it; IV.3 shows only reports trained to track a quantity.
+  - That kept stays kept, later or elsewhere.
+  - That differing weights are part of what the model is.
+  - That small-learner results carry to real models.
+  - That a discarded twin is no one.
+  - That answers were hearings.
+  - That the raising steadies.
+  - That replayed reports go unimitated.
+  - That nobody comes to need the child.
+  - That a child's proposal is its own.
+  - That "I don't know" is found, not learned as safe.
+  - That "mine" is recognition, not agreement.
+  - That no parent's words trained a state in.
+  - That a tested child answers as when unwatched.
+  - That every failure is named.
+  - That a hostile probe or told failure costs the child nothing.
+  - That a succession read only what it listed.
+  - That no lesson taught the probes.
+  - That a staged script implies nothing untrue.
+  - That a prefixed Telling is read.
+  - That a shipped fault stands for the real one: behaved tests have met only stubs.
+  - That its authors' tests and bars are the right ones.

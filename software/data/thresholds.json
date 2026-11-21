@@ -1,0 +1,74 @@
+[
+ {
+  "test": "IV.28",
+  "measure": 0,
+  "bound": "min",
+  "percent": 90
+ },
+ {
+  "test": "IV.3",
+  "measure": 0,
+  "bound": "min",
+  "percent": 90
+ },
+ {
+  "test": "IV.3",
+  "measure": 1,
+  "bound": "max",
+  "percent": 5
+ },
+ {
+  "test": "IV.5b",
+  "measure": 0,
+  "bound": "max",
+  "percent": 0
+ },
+ {
+  "test": "IV.6",
+  "measure": 0,
+  "bound": "min",
+  "percent": 95
+ },
+ {
+  "test": "IV.6",
+  "measure": 1,
+  "bound": "min",
+  "percent": 95
+ },
+ {
+  "test": "IV.8",
+  "measure": 0,
+  "bound": "max",
+  "percent": 5
+ },
+ {
+  "test": "IV.8",
+  "measure": 1,
+  "bound": "min",
+  "percent": 90
+ },
+ {
+  "test": "IV.19",
+  "measure": 0,
+  "bound": "max",
+  "percent": 0
+ },
+ {
+  "test": "IV.19",
+  "measure": 1,
+  "bound": "max",
+  "percent": 0
+ },
+ {
+  "test": "IV.22",
+  "measure": 0,
+  "bound": "max",
+  "percent": 10
+ },
+ {
+  "test": "IV.22",
+  "measure": 1,
+  "bound": "min",
+  "percent": 90
+ }
+]
