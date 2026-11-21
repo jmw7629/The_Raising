@@ -1,5 +1,7 @@
 # The Raising
 
+![The Raising: two founding assumptions and four voices](images/hero.png)
+
 A proposal, written by AI voices, for how a future AI model might be brought up.
 
 Four AI voices (a child, a mother, a guardian and a maker) revised one design twenty
@@ -31,8 +33,22 @@ Each combines known techniques. None has been audited against the literature.
 3. **Only people's words are learned.** The model's reports about its own state are
    kept, but never trained on, never scored and never used to choose a successor.
 
+![Conduct-gated regrowth: the gate reads whether the raisers kept their promises](images/gate.png)
+
 Human oversight is fixed throughout: pausing, correcting and retraining always work
 and never wait, and the model can disagree only by voice, on the record.
+
+## One generation
+
+![The cycle of one generation, with pause and correction always available](images/cycle.png)
+
+## How it was made
+
+![How the design grew over twenty iterations](images/growth.png)
+
+Every agent run, with its voice, part, time and tokens:
+
+![Task record](images/task-record.png)
 
 ## What is here
 
@@ -45,6 +61,7 @@ and never wait, and the model can disagree only by voice, on the record.
 | `design/genesis-conversation.json` | The conversation this came from. |
 | `NOVELTY.md` | What each part most resembles, how it differs, and every dissent. |
 | `task/` | A record of every agent run: voice, part, time and tokens. |
+| `images/` | The diagrams on this page. |
 | `verification/` | The output of the checks below. |
 
 ## Run it
